@@ -10,7 +10,7 @@ uso de ArrayList, Scanner, encapsulamento e validações.
 - Verificação de aprovação ou reprovação
 - Exibição dos dados cadastrados
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas no projeto
 - Java
 - IntelliJ IDEA
 - Git e GitHub
