@@ -1,0 +1,10 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Compilados Java
+out/
+target/
+
+# Sistema
+.DS_Store
