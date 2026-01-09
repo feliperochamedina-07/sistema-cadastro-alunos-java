@@ -24,8 +24,12 @@ public class Main {
 
             input.nextLine();
 
-            System.out.print("Sexo: ");
-            String sexo = input.nextLine();
+            System.out.print("Sexo (M/F): ");
+            String entrada = input.nextLine().toUpperCase();
+
+            Sexo sexo = entrada.equals("M")
+            ? Sexo.Masculino
+            : Sexo.Feminino;
 
             System.out.print("Nota1: ");
             double nota1 = input.nextDouble();
@@ -47,8 +51,7 @@ public class Main {
 
         System.out.println("\n--- Alunos cadastrados ---");
         for (Aluno a : alunos) {
-            a.mostrarDados();
-            a.calcularMedia();
+            System.out.println(a);
             System.out.println();
         }
 
