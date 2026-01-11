@@ -1,24 +1,27 @@
-# Sistema de Cadastro de Alunos (Java)
+# Sistema de Cadastro de Alunos em Java
 
-Projeto em Java desenvolvido para praticar Programação Orientada a Objetos (POO), 
-uso de ArrayList, Scanner, encapsulamento e validações.
+## Descrição
+Este projeto é um sistema simples de cadastro de alunos, desenvolvido em Java, com funcionalidades para:
 
-## Funcionalidades
-- Cadastro de alunos via terminal
-- Armazenamento em lista (ArrayList)
-- Cálculo de média
-- Verificação de aprovação ou reprovação
-- Exibição dos dados cadastrados
+- Inserir dados de alunos (nome, idade, sexo e notas)
+- Calcular a média das notas
+- Verificar aprovação/reprovação
+- Exibir os dados de forma organizada usando `toString()`
+- Utilizar enum `Sexo` para representar o gênero do aluno
 
-## Tecnologias utilizadas no projeto
-- Java
-- IntelliJ IDEA
-- Git e GitHub
+O projeto é **console-based** e foi desenvolvido para fins de estudo e prática de conceitos de Java, como:
 
-## Como executar
-1. Clone o repositório
-2. Abra o projeto no IntelliJ
-3. Execute a classe `Main`
+- Programação orientada a objetos (POO)
+- Encapsulamento com getters e setters
+- Enumerações
+- Override de métodos (`toString`)
+- Uso de `ArrayList` para armazenar múltiplos objetos
 
-## Autor
-Felipe Rocha Medina
+---
+
+## Como rodar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/feliperochamedina-07/sistema-cadastro-alunos-java.git
